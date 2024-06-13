@@ -1,0 +1,53 @@
+.popularitem {
+    margin-bottom: 20vh;
+}
+
+.popularitem_p {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+    color: rgb(7, 7, 54);
+}
+
+.popularitem h5, h6 {
+    text-align: center;
+    color: rgb(7, 7, 54);
+}
+
+.popularitem .price {
+    color: #f51010;
+    text-align: center;
+}
+
+.cartimage {
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+}
+
+.cartimage img {
+    border-bottom: 2px solid #f51010;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+}
+
+.cartimage .button {
+    position: absolute;
+    bottom: 0;
+    cursor: pointer;
+    width: 100%;
+    padding: 20px 20px;
+    color: #fff;
+    background-color: #f51010e0;
+    margin: 0;
+    transition: 0.7s;
+    transform: translate(0, 100%);
+    text-align: center;
+}
+
+.cartimage:hover .button {
+    transform: translate(0, 0);
+}
+

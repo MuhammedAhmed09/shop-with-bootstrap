@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+.Loading {
+    width: 100%;
+    height: 100vh;
+    padding-top: 40vh;
+    background-color: #cd2d2d;
+    text-align: center;
+
+}

@@ -1,0 +1,45 @@
+.products {
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    overflow: hidden;
+}
+
+.products Col {
+    overflow: hidden;
+}
+
+.products .box {
+    overflow: hidden;
+}
+
+.products .h1 {
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 3rem;
+    color: rgb(7, 7, 54);
+}
+
+.products img {
+    width: 100%;
+    transition: .7 ease;
+    height: auto;
+}
+
+.products img:hover {
+    opacity: 0.9;
+    transition: 0.7s;
+    transform: scale(1.1);
+    
+}
+
+.products h5 {
+    margin-top: 10px;
+    color: rgb(7, 7, 54);
+    text-align: center;
+    overflow: hidden;
+}
+
+.products .price {
+    text-align: center;
+    color: rgb(245, 16, 16);
+}
